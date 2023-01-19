@@ -80,8 +80,12 @@ Bitte beachte bei der Verwendung unserer Vorlagen noch folgende Hinweise:
 - Beim einfügen der E-Mail-Vorlagen wird **nur** der Mail-Körper übernommen, jedoch nicht der Betreff, etwaige weitere Empfänger im `CC`/`BCC` und/oder Anhänge oder Filter-Regeln. Falls wir diese für empfehlenswert halten sind diese unten entsprechend angegeben.
 - Je nach Logik und Filtern kann es passieren, dass Teilnehmende (wenn diese bspw. sowohl TN als auch RE sind) E-Mails doppelt bekommen. ➡ Damit hier keine Missverständnisse entstehen haben wir dazu einen entsprechenden Hinweis in unsere Vorlagen integriert.
 - 💡 **Tipp:** Nimm eine beliebige Vorlage als Ausgangsbasis, passe daran alle entsprechenden Texte an deine Bedürfnisse an, ändere ggf. Farben und Logos und speichere diese Vorlage anschließend einmal für dich ab.
-- Der Editor von amosWEB unterstützt bisher keine Hervorhebungen/fett-markierte Texte - in unseren Vorlagen haben wir diese jeweils manuell im HTML-Editor angepasst durch das hinzufügen von `<b>` bzw. `</b>` jeweils vor & nach dem zu fettenden Teil ➡ `<b>Dieser Text ist fett hervorgehoben</b>`
-- ![HTML-Modus](images/screenshots/2_how-to/toggle_html_view.png)
+- Der Editor von amosWEB unterstützt bisher keine Hervorhebungen/fett-markierte Texte über die Bedienleiste - du kannst dafür jedoch einfach den anzupassenden Text markieren und mit den folgenden Tastenkombinationen entsprechend hervorheben. Bei erneutem Drücken der Tastenkombination machst du die Änderung wieder rückgängig.
+  - `STRG` + `b` ➡ **Hervorhebung in fett**
+  - `STRG` + `i` ➡ _Hervorhebung kursiv_
+  - `STRG` + `u` ➡ <ins>Hervorhebung durch unterstreichen</ins>
+  - Alternativ kannst du natürlich auch direkt manuell im HTML-Editor die klassischen Tags `<b>` bzw. `</b>` etc. einfügen.
+  - ![HTML-Modus](images/screenshots/2_how-to/toggle_html_view.png)
 - Unsere Vorlage kannst du natürlich auch über den in amosWEB integrierten Editor bearbeiten. **Wo möglich solltest du dies auch tun!**
 
 <p align="right">(<a href="#readme-top">🔼 zurück nach Oben</a>)</p>
