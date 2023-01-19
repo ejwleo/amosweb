@@ -212,7 +212,7 @@ PS: Falls du sowohl Mitarbeitende:r als auch Kontaktperson bist erhältst du ggf
 
 - Filter ⚙: - / -
 - Anhänge 🔗: - / -
-- Bemerkung 💡: Da die Meldung über die Stornierung **nur** an die Teilnehmenden geht setzen wri heir die E-Mail-Adresse der Kontaktperson in CC, damit auch diese (i.d.R. Eltern) informiert werden.
+- Bemerkung 💡: Da die Meldung über die Stornierung **nur** an die Teilnehmenden geht setzen wir hier die E-Mail-Adresse der Kontaktperson in CC, damit auch diese (i.d.R. Eltern) informiert werden.
 - CC: `$ANMELDUNG_E-MAIL$`
 
 Betreff:
@@ -251,7 +251,7 @@ PS: Falls du sowohl Teilnehmende:r als auch Kontaktperson/Rechnungsempfänger:in
 
 - Filter ⚙: - / -
 - Anhänge 🔗:  [📄 Information über Warteliste](#Anmeldung-TN-Information-Wartenliste)
-- Bemerkung 💡: Da die Meldung der Platzierung auf der Warteliste **nur** an die Teilnehmenden geht setzen wri heir die E-Mail-Adresse der Kontaktperson in CC, damit auch diese (i.d.R. Eltern) informiert werden.
+- Bemerkung 💡: Da die Meldung der Platzierung auf der Warteliste **nur** an die Teilnehmenden geht setzen wri hier die E-Mail-Adresse der Kontaktperson in CC, damit auch diese (i.d.R. Eltern) informiert werden.
 - CC: `$ANMELDUNG_E-MAIL$`
 
 Betreff:
