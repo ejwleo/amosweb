@@ -1,9 +1,8 @@
 ---
-title: E-Mail-Vorlagen
+title: Vorlagen
 weight: 2
-# TODO
-prev: /docs/getting-started
-next: /docs/guide/organize-files
+prev: /docs/email-vorlagen/anwendung
+next: /docs/email-vorlagen/vorlagen/
 sidebar:
   open: true
 ---
@@ -22,7 +21,7 @@ Für eine bessere Übersichtlichkeit haben wir die Vorlagen in Kategorien aufget
 ---
 
 {{< callout type="info" title="Tipp" >}}
-  In den folgenden Vorlagen zeigt das Vorschau-Bild nur den eigentlichen Mailtext, da sich die Inhalte der Vorlage darüber & darunter nicht ändern - siehe dazu auch [Aufbau der Vorlage](/docs/email-vorlagen/aufbau)
+  In den folgenden Vorlagen zeigt das Vorschau-Bild nur den eigentlichen Mailtext, da sich die Inhalte der Vorlage darüber & darunter nicht ändern - siehe dazu auch [Aufbau der Vorlage](/amosweb/docs/email-vorlagen/aufbau)
 {{< /callout >}}
 
 ## Basis-Vorlage

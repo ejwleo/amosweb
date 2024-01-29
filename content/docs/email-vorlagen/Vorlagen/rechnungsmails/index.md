@@ -1,6 +1,7 @@
 ---
 title: Rechnungsmails
 weight: 2
+prev: /docs/email-vorlagen/vorlagen/veranstaltungsmails
 ---
 
 _Legende:_ 🗓 Veranstaltungsmails (im Kontext einer Veranstaltung) 💵 allgemein Rechnungsmails

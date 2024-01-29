@@ -1,6 +1,8 @@
 ---
 title: Veranstaltungsmails
 weight: 1
+next: /docs/email-vorlagen/vorlagen/rechnungsmails
+prev: /docs/email-vorlagen/vorlagen/
 ---
 
 ## Mails an die Angemeldeten einer Veranstaltung
