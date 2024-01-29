@@ -1,0 +1,76 @@
+# Hugo configuration file
+title: ejwleo - amosWEB
+
+# import hextra as module
+theme: hextra
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+defaultContentLanguage: en
+
+menu:
+  main:
+    - name: Dokumentation
+      pageRef: /docs
+      weight: 1
+    - name: Über das EJW Leonberg ↗
+      url: "https://ejwleo.de/"
+      weight: 3
+    - name: FAQ
+      url: "/faq"
+      weight: 3
+    - name: amosWEB Status ↗
+      url: "https://www.amosweb.de/status/"
+      weight: 4
+    - name: amosWEB Guides ↗
+      url: "https://www.amosweb.de/schulungsmaterial/"
+      weight: 5
+    - name: Suchen
+      weight: 6
+      params:
+        type: search
+    - name: GitHub
+      weight: 7
+      url: "https://github.com/ejwleo/amosweb"
+      params:
+        icon: github
+    - name: Twitter
+      weight: 8
+      url: "https://instagram.com/ejwleo/"
+      params:
+        icon: instagram
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: favicon.svg
+      dark: favicon-dark.svg
+      link: /
+      width: 20
+      height: 20
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: wide
