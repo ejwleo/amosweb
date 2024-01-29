@@ -7,7 +7,7 @@ sidebar:
   open: true
 ---
 
-Auf den folgenden Seiten beschreiben wir den Aufbau sowie die Anwendung von E-Mail-VOrlagen in amosWEB und geben Tipps zur Umsetzung. Zusätzlich findest du dort auch unsere Text-Vorlagen und Detail-Einstellungen.
+Auf den folgenden Seiten beschreiben wir den Aufbau sowie die Anwendung von E-Mail-Vorlagen in amosWEB und geben Tipps zur Umsetzung. Zusätzlich findest du dort auch unsere Text-Vorlagen und Detail-Einstellungen.
 
 <!--more-->
 

@@ -9,13 +9,13 @@ prev: /docs/email-vorlagen/vorlagen/
 
 ### Angemeldete/r bestätigt
 
-#### Teilnehmende
-
-Filter, Anhänge und Hinweise:
+{{< callout emoji="👇" >}}
+  **Teilnehmende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 
 - Filter ⚙: `Teilnehmerart` ist `Teilnehmer`
 - Anhänge 🔗:  [📄 Anmeldebestätigung TN mit Anzahlung](/docs/dokument-vorlagen/#Anmeldebestaetigung-TN-mit-Anzahlung)
-- Bemerkung 💡: Wenn eine Veranstaltung keine (!) Anzahlung enthält muss die VOrlage lokal in der Veranstaltung überschrieben werden mit angepasstem Wortlaut.
+- Bemerkung 💡: Wenn eine Veranstaltung keine (!) Anzahlung enthält muss die Vorlage lokal in der Veranstaltung überschrieben werden mit angepasstem Wortlaut.
 
 Betreff:
 
@@ -56,9 +56,9 @@ PS: Falls du sowohl Teilnehmende:r als auch Kontaktperson/Rechnungsempfänger:in
 
 ---
 
-#### Betreuende
-
-Filter, Anhänge und Hinweise:
+{{< callout emoji="👇" >}}
+  **Betreuende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 
 - Filter ⚙: `Teilnehmerart` ist `Betreuer`
 - Anhänge 🔗: - / -
@@ -227,7 +227,13 @@ PS: Falls du sowohl Teilnehmende:r als auch Kontaktperson/Rechnungsempfänger:in
 
 ### Neue Anmeldung
 
-#### Teilnehmende
+{{< callout type="warning" >}}
+  An diese Mail wird automatisch eine PDF-Datei angehängt, welche alle Eingabedaten aller Teilnehmenden enthält. Diese Vorlage sollte daher möglichst **nicht** in Verbindung mit Gruppenanmeldungen verwendet werden!
+{{< /callout >}}
+
+{{< callout emoji="👇" >}}
+  **Teilnehmende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 
 - Filter ⚙: `Teilnehmerart` ist `Teilnehmer`
 - Anhänge 🔗:  [📄 Eingangsbestätigung Teilnehmende](/docs/dokument-vorlagen/#Anmeldung-TN-Eingangsbestaetigung)
@@ -271,7 +277,9 @@ PS: Falls du sowohl Teilnehmende:r als auch Kontaktperson/Rechnungsempfänger:in
 
 ---
 
-#### Betreuende
+{{< callout emoji="👇" >}}
+  **Betreuende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 
 - Filter ⚙: `Teilnehmerart` ist `Betreuer`
 - Anhänge 🔗: - / -
@@ -322,7 +330,9 @@ PS: Falls du sowohl Mitarbeitende:r als auch Kontaktperson bist erhältst du ggf
 
 ### Neue Anmeldung
 
-#### Teilnehmende
+{{< callout emoji="👇" >}}
+  **Teilnehmende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 
 - Filter ⚙: `Anmeldungsart` ist `Anmeldung für Teilnehmende`
 - Anhänge 🔗:  [📄 Eingangsbestätigung Rechnungsempfänger](/docs/dokument-vorlagen/#Anmeldung-RE-Eingangsbestaetigung)
@@ -368,8 +378,9 @@ PS: Falls du sowohl Teilnehmende:r als auch Kontaktperson/Rechnungsempfänger:in
 
 ---
 
-#### Betreuende
-
+{{< callout emoji="👇" >}}
+  **Betreuende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 - Filter ⚙: `Anmeldungsart` ist `Anmeldung für Betreuende`
 - Anhänge 🔗: - / -
 - Bemerkung 💡: - / -
@@ -413,7 +424,9 @@ PS: Falls du sowohl Mitarbeitende:r als auch Kontaktperson bist erhältst du ggf
 
 ### Anmeldung bestätigt
 
-#### Teilnehmende
+{{< callout emoji="👇" >}}
+  **Teilnehmende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 
 - Filter ⚙: `Anmeldungsart` ist `Anmeldung für Teilnehmende`
 - Anhänge 🔗:  [📄 Anmeldebestätigung Rechnungsempfänger (mit Anzahlung)](/docs/dokument-vorlagen/#Anmeldebestaetigung-RE-mit-Anzahlung)
@@ -459,7 +472,9 @@ PS: Falls du sowohl Teilnehmende:r als auch Kontaktperson/Rechnungsempfänger:in
 
 ---
 
-#### Betreuende
+{{< callout emoji="👇" >}}
+  **Betreuende** (siehe Filter-Einstellungen)
+{{< /callout >}}
 
 - Filter ⚙: `Anmeldungsart` ist `Anmeldung für Betreuende`
 - Anhänge 🔗:  - / -
@@ -541,7 +556,7 @@ Falls du noch Fragen hast, melde dich gerne einfach per E-Mail oder rufe kurz be
 
 💡 Code-Block Buttons inkl. Text (2-spaltiger Absatz)
 
-```
+``` html
 <re-grid>
     <re-column padding="0 0 20px 0" width="50%" valign="top">
         <re-button background-color="#123a5e" font-size="16px" href="$GRUPPENLINK_VERANTWORTLICHE_PERSON$">
@@ -569,5 +584,350 @@ Falls du noch Fragen hast, melde dich gerne einfach per E-Mail oder rufe kurz be
   <summary>🖥 Vorschau</summary>
   
   ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_anmeldungen_neue-gruppenanmeldung.png)
+
+</details>
+
+## Rechnungsmails an den Rechnungsempfänger einer Anmeldung
+
+_Diese Vorlagen werden für alle Rechnungen verwendet, welche aus einer Anmeldung erzeugt wurden, oder für Rechnungen bei denen eine Anmeldung händisch hinterlegt wurde._
+
+### Rechnung versenden
+
+{{< callout emoji="👇" >}}
+  **Haupt-Rechnung** (siehe Filter-Einstellungen)
+{{< /callout >}}
+
+- Filter ⚙: `ist Stornorechnung` ist `Nein` **UND** `ist Anzahlung` ist `Nein` 
+- Anhänge 🔗:  [📄 Rechnung für Angebot (ohne Anzahlung)](/docs/dokument-vorlagen/#Rechnung-Angebot-ohne-Anzahlung)
+- Bemerkung 💡: - / -
+
+Betreff:
+
+```
+Rechnung für die Teilnahme an $VERANSTALTUNGSNAME$ ($ANGEBOTSNUMMER$ - $RECHNUNGSNUMMER$)
+```
+
+E-Mail-Vorschautext:
+
+```
+$BRIEFANREDE_DU$, anbei findest du die Rechnung für die Teilnahme an „$VERANSTALTUNGSNAME$“ vom $VERANSTALTUNGSBEGINN_LANG$ bis $VERANSTALTUNGSENDE_LANG$.
+```
+
+E-Mail-Text:
+
+```
+Rechnung für die Teilnahme am Angebot $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ in $VERANSTALTUNGSORT$
+---
+$BRIEFANREDE_DU$,
+anbei findest du die Rechnung für die Teilnahme an „$VERANSTALTUNGSNAME$“ vom $VERANSTALTUNGSBEGINN_LANG$ bis $VERANSTALTUNGSENDE_LANG$ .
+
+Wir bitten, den fälligen Restbetrag von $RESTBETRAG$ bis zum $FORMATIERTES_ZAHLUNGSZIEL$ auf das folgende Konto zu überweisen:
+
+IBAN: $IBAN_DES_ZIELKONTOS$
+BIC: BIC12456
+Kontoinhaber: Deine Organisation
+Verwendungszweck: $VERWENDUNGSZWECK$
+
+Spätestens drei Wochen vor Beginn der Freizeit bekommst du einen ausführlichen Informationsbrief. Für weitere Fragen stehen wir natürlich gerne zur Verfügung.
+```
+
+<details>
+  <summary>🖥 Vorschau</summary>
+  
+  ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_rechnung_versenden_einzel.png)
+
+</details>
+
+{{< callout emoji="👇" >}}
+  **Anzahlungsrechnung** (siehe Filter-Einstellungen)
+{{< /callout >}}
+
+- Filter ⚙: `ist Anzahlung` ist `Ja`
+- Anhänge 🔗:  [📄 Rechnung für Angebot (mit Anzahlung)](/docs/dokument-vorlagen/#Rechnung-Angebot-mit-Anzahlung)
+- Bemerkung 💡: - / -
+
+Betreff:
+
+```
+Anzahlungsrechnung für die Teilnahme an $VERANSTALTUNGSNAME$ ($ANGEBOTSNUMMER$ - $RECHNUNGSNUMMER$)
+```
+
+E-Mail-Vorschautext:
+
+```
+$BRIEFANREDE_DU$, anbei findest du die Anzahlungsrechnung für die Teilnahme an „$VERANSTALTUNGSNAME$“ vom $FORMATIERTER_VERANSTALTUNGSBEGINN$ bis $FORMATIERTES_VERANSTALTUNGSENDE$.
+```
+
+E-Mail-Text:
+
+```
+Rechnung für die Teilnahme am Angebot $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ in $VERANSTALTUNGSORT$
+---
+$BRIEFANREDE_DU$,
+anbei findest du die Rechnung für die Teilnahme an „$VERANSTALTUNGSNAME$“ vom $FORMATIERTER_VERANSTALTUNGSBEGINN$ bis $FORMATIERTES_VERANSTALTUNGSENDE$.
+
+Wir bitten, die Anzahlung von $RESTBETRAG$ bis zum $ZAHLUNGSZIEL$ auf das folgende Konto zu überweisen:
+
+IBAN: $IBAN_DES_ZIELKONTOS$
+BIC: BIC12456
+Kontoinhaber: Deine Organisation
+Verwendungszweck: $VERWENDUNGSZWECK$
+
+Der Restbetrag ist bis spätestens zwei Wochen vor Beginn der Freizeit am $VERANSTALTUNGSBEGINN$ fällig, hierfür erhältst du eine separate Rechnung.
+
+Spätestens drei Wochen vor Beginn der Freizeit bekommst du einen ausführlichen Informationsbrief. Für weitere Fragen stehen wir natürlich gerne zur Verfügung.
+```
+
+<details>
+  <summary>🖥 Vorschau</summary>
+  
+  ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_rechnung_versenden_anzahlung.png)
+
+</details>
+
+{{< callout emoji="👇" >}}
+  **Storno-Rechnung** (siehe Filter-Einstellungen)
+{{< /callout >}}
+
+- Filter ⚙: `ist Stornorechnung` ist `Ja` **UND** `ist Anzahlung` ist `Ja`
+- Anhänge 🔗:  [📄 Storno-Rechnung für Angebot](/docs/dokument-vorlagen/#Rechnung-Angebot-Storno)
+- Bemerkung 💡: - / -
+
+Betreff:
+
+```
+Storno-Rechnung für die Teilnahme an $VERANSTALTUNGSNAME$ ($ANGEBOTSNUMMER$ - $RECHNUNGSNUMMER$)
+```
+
+E-Mail-Vorschautext:
+
+```
+$BRIEFANREDE_DU$, für die Teilnahme an „$VERANSTALTUNGSNAME$“ vom $VERANSTALTUNGSBEGINN_LANG$ bis $VERANSTALTUNGSENDE_LANG$ stornieren wir die zuvor ausgestellte Rechnung Nr. $HAUPTRECHNUNGSNUMMER$.
+```
+
+E-Mail-Text:
+
+```
+Storno-Rechnung für die Teilnahme am Angebot $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ in $VERANSTALTUNGSORT$
+---
+$BRIEFANREDE_DU$,
+für die Teilnahme an „$VERANSTALTUNGSNAME$“ vom $VERANSTALTUNGSBEGINN_LANG$ bis $VERANSTALTUNGSENDE_LANG$ stornieren wir die zuvor ausgestellte Rechnung Nr. $HAUPTRECHNUNGSNUMMER$.
+
+Falls bereits ein Zahlungseingang erfolgt ist, erstatten wir diesen in den nächsten Tagen.
+
+Für weitere Fragen stehen wir natürlich gerne zur Verfügung.
+```
+
+<details>
+  <summary>🖥 Vorschau</summary>
+  
+  ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_rechnung_versenden_storno.png)
+
+</details>
+
+### Zahlungserinnerung / Mahnung versenden
+
+- Filter ⚙: - / -
+- Anhänge 🔗:  - / -
+- Bemerkung 💡: - / -
+
+Betreff:
+
+```
+Zahlungserinnerung - Rechnung für die Teilnahme an $VERANSTALTUNGSNAME$ ($ANGEBOTSNUMMER$ - $RECHNUNGSNUMMER$)
+```
+
+E-Mail-Vorschautext:
+
+```
+$BRIEFANREDE_DU$, wir haben bisher leider noch keinen Zahlungseingang feststellen können. Wir sind uns sicher, dass dies nur ein Versehen war und bitten dich daher den ausstehenden Restbetrag in den nächsten Tagen zu überweisen.
+```
+
+E-Mail-Text:
+
+```
+Zahlungserinnerung an die Rechnung für die Teilnahme am Angebot $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ in $VERANSTALTUNGSORT$
+---
+$BRIEFANREDE_DU$,
+wir haben bisher für die unten aufgeführte Rechnung leider noch keinen Zahlungseingang feststellen können. Wir sind uns sicher, dass dies nur ein Versehen war und bitten dich daher den ausstehenden Restbetrag in den nächsten Tagen auf das genannte Konto zu überweisen:
+
+IBAN: $IBAN_DES_ZIELKONTOS$
+BIC: BIC12456
+Kontoinhaber: Deine Organisation
+Verwendungszweck: $VERWENDUNGSZWECK$
+
+Rechnungsnummer: $RECHNUNGSNUMMER$
+Rechnungsdatum: $RECHNUNGSDATUM_LANG$
+bereits bezahlter Betrag: $BEREITS_BEZAHLTER_BETRAG$
+Zahlungsziel: $ZAHLUNGSZIEL_LANG$
+letzte Zahlung: $DATUM_LETZTE_ZAHLUNG_LANG$
+fälliger Restbetrag: $RESTBETRAG$
+
+Solltest du den fälligen Betrag in den letzten Tagen bereits überwiesen haben kannst du diese Benachrichtigung ignorieren.
+```
+
+<details>
+  <summary>🖥 Vorschau</summary>
+  
+  ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_rechnung_zahlungserinnerung.png)
+
+</details>
+
+## Mails an die Sachbearbeitung einer Veranstaltung
+
+### Neue Anmeldung
+
+{{< callout emoji="👇" >}}
+  **Teilnehmende** (siehe Filter-Einstellungen)
+{{< /callout >}}
+
+- Filter ⚙: `Anmeldungsart` ist `Anmeldung für Teilnehmende`
+- Anhänge 🔗:  - / -
+- Bemerkung 💡: Im Button wird automatisch via Platzhalter ein Link erzeugt, der zur jeweiligen Seite führt 🎉
+
+Betreff:
+
+``` text
+Neue Anmeldung für $ANGEBOTSNUMMER$: "$VERANSTALTUNGSNAME$" (A-$ANMELDUNGSNUMMER$, $ANZAHL_AN_TEILNEHMENDEN$ TN)
+```
+
+E-Mail-Vorschautext:
+
+``` text
+Hallo $SACHBEARBEITUNG_VORNAME$, ﻿am $ANMELDEDATUM_LANG$ ging eine neue Anmeldung für $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ ein: $NAMEN_DER_TEILNEHMENDEN$ ( Σ $ANZAHL_AN_TEILNEHMENDEN$ Teilnehmende)
+```
+
+E-Mail-Text:
+
+``` text
+Benachrichtigung über den Eingang einer Anmeldung für $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“
+---
+Hallo $SACHBEARBEITUNG_VORNAME$,
+
+am $ANMELDEDATUM_UHRZEIT$ ging eine neue Anmeldung für $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ ein:
+
+Anmeldungsnummer: $ANMELDUNGSNUMMER$
+Angemeldete Teilnehmende: $NAMEN_DER_TEILNEHMENDEN$ ( Σ $ANZAHL_AN_TEILNEHMENDEN$ Teilnehmende)
+Bemerkungen: $BEMERKUNGEN_DES_ANMELDENDEN$
+```
+
+💡 Der Button-Abschnitt hat folgenden Code:
+
+``` html
+<re-grid>
+    <re-column padding="0 0 20px 0" width="50%">
+        <re-button font-size="16px" background-color="#068b65" href="https://ejwleo.amosweb.de/app/events/registration/$ANMELDUNGSNUMMER$/registrationOverview">
+            <b>zur Anmeldung</b> 📧
+        </re-button>
+    </re-column>
+    <re-column-spacer></re-column-spacer>
+    <re-column padding="0 0 20px 0" width="50%">
+        <re-button font-size="16px" background-color="#09be8b" href="https://ejwleo.amosweb.de/app/events/$VERANSTALTUNGS_ID$/eventOverview">
+            <b>zur Veranstaltung 🔗</b>
+        </re-button>
+    </re-column>
+</re-grid>
+```
+
+<details>
+  <summary>🖥 Vorschau</summary>
+  
+  ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_sachbearbeitung_neue-anmeldung.png)
+
+</details>
+
+{{< callout emoji="👇" >}}
+  **Betreuende** (siehe Filter-Einstellungen)
+{{< /callout >}}
+
+- Filter ⚙: `Anmeldungsart` ist `Anmeldung für Betreuende`
+- Anhänge 🔗: - / -
+- Bemerkung 💡: Im Button wird automatisch via Platzhalter ein Link erzeugt, der zur jeweiligen Seite führt 🎉
+
+Betreff:
+
+```
+Neue Mitarbeiter-Anmeldung für $ANGEBOTSNUMMER$: "$VERANSTALTUNGSNAME$" (A-$ANMELDUNGSNUMMER$, $ANZAHL_AN_TEILNEHMENDEN$ MA)
+```
+
+E-Mail-Vorschautext:
+
+```
+Hallo $SACHBEARBEITUNG_VORNAME$, ﻿am $ANMELDEDATUM_UHRZEIT$ Uhr ging eine neue Mitarbeiter-Anmeldung für $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ ein: $NAMEN_DER_TEILNEHMENDEN$ ( Σ $ANZAHL_AN_TEILNEHMENDEN$ Mitarbeitende)
+```
+
+E-Mail-Text:
+
+```
+Benachrichtigung über den Eingang einer Mitarbeiter-Anmeldung für $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“
+---
+Hallo $SACHBEARBEITUNG_VORNAME$,
+
+am $ANMELDEDATUM$ ging eine neue Mitarbeiter-Anmeldung für $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ ein:
+
+Anmeldungsnummer: $ANMELDUNGSNUMMER$
+Angemeldete Mitarbeitende: $NAMEN_DER_TEILNEHMENDEN$ ( Σ $ANZAHL_AN_TEILNEHMENDEN$ Mitarbeitende)
+Bemerkungen: $BEMERKUNGEN_DES_ANMELDENDEN$
+```
+
+<details>
+  <summary>🖥 Vorschau</summary>
+  
+  ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_sachbearbeitung_neue-anmeldung_ma.png)
+
+</details>
+
+## Mails an die Veranstaltungsleitungen
+
+_Veranstaltungsleitungen können über einen Freigabelink Zugriff auf Teilnehmerlisten bekommen._
+
+### Freigabelink senden
+
+- Filter ⚙: - / -
+- Anhänge 🔗:  - / -
+- Bemerkung 💡: - / -
+
+Betreff:
+
+```
+Neue Leitungsfreigabe für $ANGEBOTSNUMMER$: "$VERANSTALTUNGSNAME$" (vertraulich)
+```
+
+E-Mail-Vorschautext:
+
+```
+Neue Freigabe für externe Veranstaltungsleitung für  $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ verfügbar
+```
+
+E-Mail-Text:
+
+```
+Neue Freigabe für externe Veranstaltungsleitung für  $ANGEBOTSNUMMER$: „$VERANSTALTUNGSNAME$“ verfügbar
+---
+Hallo $BRIEFANREDE_DU$,
+
+in deiner Rolle als externe Veranstaltungsleitung für $VERANSTALTUNGSNAME$ ($ANGEBOTSNUMMER$) erhältst du über diese Freigabe den Zugang zu den veranstaltungsbezogenen AMOS-Daten im DEINE ORGANISATION.
+
+Die Freigabe wurde für dich mit folgenden Daten hinterlegt:
+E-Mail-Adresse: $E-MAIL$
+Telefonnummer: $MOBIL$
+
+Über den Button unten kommst du zur Web-Ansicht. Dort kannst du einen Zugangscode per SMS an deine Telefonnummer anfordern. Nach dessen Eingabe kannst du die Anmeldungen - und Teilnahme der Veranstaltung einsehen und Exporte (bspw. Teilnehmerlisten etc) generieren.
+
+⚠ Die dort verfügbaren Daten sind vertraulich und dürfen in keinem Fall an externe weitergegeben oder diesen zugänglich gemacht werden. Exporte dürfen nur temporär gespeichert werden und müssen nach Abschluss der Veranstaltung Datenschutzkonform vernichtet werden! Wende dich bei Fragen hierzu gerne jederzeit an das Team der Geschäftsstelle.
+```
+
+💡 Der Button hat folgenden Code:
+
+``` html
+<re-button href="$FREIGABELINK$" background-color="#09be8b">
+    <b>zur Web-Ansicht🔗</b>
+</re-button>
+```
+
+<details>
+  <summary>🖥 Vorschau</summary>
+  
+  ![Vorschau-Bild E-Mail-Vorlage](veranstaltung_leitung_freigabelink.png)
 
 </details>

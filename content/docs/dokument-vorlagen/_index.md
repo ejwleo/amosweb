@@ -7,12 +7,11 @@ sidebar:
   open: true
 ---
 
-⏲ _**coming soon**_ 😊
+ Die Dokumentenvorlagen stehen als Auswahl im Exportwerkzeug der jeweiligen zugehörigen Tabelle zur Verfügung und in den jeweiligen Mailvorlagen, die du unter dem Menüpunkt E-Mail anlegen kannst.
 
 {{< callout type="info" title="Tipp" >}}
   **Hinweis**: Die folgenden Überschriften dienen übergangsweise (bis zur Bereitstellung der Dokumentvorlagen) dazu, die Verlinkungen in den E-Mail-Vorlagen einbetten zu können.
 {{< /callout >}}
-
 
 ## Vorlagen für Teilnehmende und Betreuende
 
@@ -75,3 +74,29 @@ sidebar:
 
 <a id="Rechnung-Allgemein"></a>
 #### Allgemeine Rechnung
+
+➡⏲ ...
+
+<a id="Rechnung-Allgemein-Storno"></a>
+#### Allgemeine Rechnung Storno
+
+➡⏲ ...
+
+## Vorlagen für Spenden und Dankschreiben
+
+{{< callout >}}
+  Platzhalter für zukünftige Vorlagen - aktuell nicht in Verwendung!
+{{< /callout >}}
+
+## Vorlagen für Spendende und Sammelbestätigungen
+
+{{< callout >}}
+  Platzhalter für zukünftige Vorlagen - aktuell nicht in Verwendung!
+{{< /callout >}}
+
+## Vorlagen für Kontakte
+
+### Adress-Etiketten
+
+ ➡⏲ ...
+
