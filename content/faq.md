@@ -11,7 +11,7 @@ Du hast die Fragen, wir die Antworten 👇
 
 ## Ich vermisse eine Vorlage für ...?
 
-Wir haben sicherlich nicht für jeden Anwendungsfall eine (für dich!) passende Vorlage, dass ist auch nicht unser Anspruch. NUtze gerne unsere Texte als Ausgangsbasis und passe sie für deine/eure Bedürfnisse an.
+Wir haben sicherlich nicht für jeden Anwendungsfall eine (für dich!) passende Vorlage, dass ist auch nicht unser Anspruch. Nutze gerne unsere Texte als Ausgangsbasis und passe sie für deine/eure Bedürfnisse an.
 
 ## Wie können wir uns revanchieren?
 
