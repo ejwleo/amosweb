@@ -15,7 +15,7 @@ title: Start
 {{< /callout >}}
 
 {{< cards >}}
-  {{< card link="/faq" title="FAQ" icon="question-mark-circle" subtitle="Häufige Fragen & Antworten" >}}
+  {{< card link="/amosweb/faq" title="FAQ" icon="question-mark-circle" subtitle="Häufige Fragen & Antworten" >}}
   {{< card link="https://ejwleo.de/wir/kontakt/" title="Kontakt" icon="mail-open" subtitle="Dein direkter Draht zu uns" >}}
 {{< /cards >}}
 
